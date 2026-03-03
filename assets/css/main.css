@@ -361,6 +361,26 @@ h6 {
   background-color: rgba(33, 37, 41, 0.03);
 }
 
+.nav-translate {
+  margin-top: 30px; /* ajusta según tu sidebar */
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.nav-translate img {
+  width: 22px;
+  cursor: pointer;
+  border-radius: 3px;
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.nav-translate img:hover {
+  opacity: 1;
+  transform: scale(1.15);
+}
+
 /*--------------------------------------------------------------
 # Global Footer
 --------------------------------------------------------------*/
