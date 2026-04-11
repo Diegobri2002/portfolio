@@ -532,7 +532,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
+  padding: 30px 0;
   overflow: clip;
 }
 
@@ -674,6 +674,43 @@ section,
   margin-right: 5px;
   color: var(--accent-color);
   line-height: 0;
+}
+
+.download-btn {
+  background-color: #add8e6;
+  color: #000 !important;
+  border: none;
+  padding: 12px 25px;
+  font-weight: 500;
+  transition: 0.3s;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+}
+.download-btn:hover {
+  background-color: #90c2d4;
+  transform: translateY(-2px);
+}
+.linkedin-btn {
+  background-color: #0077b5;
+  color: #fff !important;
+  border: none;
+  padding: 12px 25px;
+  font-weight: 500;
+  transition: 0.3s;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+}
+.linkedin-btn:hover {
+  background-color: #005a8a;
+  transform: translateY(-2px);
+}
+.downloads-container {
+  padding: 40px 0;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
